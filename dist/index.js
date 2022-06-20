@@ -1,13 +1,14 @@
+"use strict";
 function add(num1, num2) {
     console.log(typeof num1);
     return num1 + num2;
 }
-var num1 = 5;
-var num2 = 2.8;
-var result = add(num1, num2);
+const num1 = 5;
+const num2 = 2.8;
+const result = add(num1, num2);
 console.log(result);
-var person = {
+const person = {
     name: 'John Doe',
-    age: '30'
+    age: 30
 };
 console.log(person);
