@@ -129,6 +129,7 @@ console.log(st, st.eat());
 
 // Generics
 function getArray<T>(items: T[]): T[] {
+    // @ts-ignore
     return [].concat(items);
 }
 

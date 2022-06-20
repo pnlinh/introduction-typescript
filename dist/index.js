@@ -77,6 +77,7 @@ const st = new Student(2, 'TrungX', 'FRT');
 console.log(st, st.eat());
 // Generics
 function getArray(items) {
+    // @ts-ignore
     return [].concat(items);
 }
 let numArr = getArray([1, 2, 3]);
