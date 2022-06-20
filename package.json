@@ -1,0 +1,14 @@
+{
+  "name": "intro-typescript",
+  "version": "1.0.0",
+  "description": "Introduction TypeScript",
+  "main": "app.js",
+  "author": "Ngoc Linh Pham",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
